@@ -75,13 +75,13 @@ python ml/entrenador_clasificador.py
 
 Se puede validar en consola con este test rápido:
 
-```python
-import joblib
-modelo = joblib.load("modelo_clasificador.pkl")
-vectorizer = joblib.load("vectorizer.pkl")
-texto = "odio los lunes"
-vector = vectorizer.transform([texto])
-print(modelo.predict(vector))
+    import joblib
+    modelo = joblib.load("modelo_clasificador.pkl")
+    vectorizer = joblib.load("vectorizer.pkl")
+    texto = "odio los lunes"
+    vector = vectorizer.transform([texto])
+    print(modelo.predict(vector))
+
 
 ---
 
