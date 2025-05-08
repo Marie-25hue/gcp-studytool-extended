@@ -1,0 +1,6 @@
+[
+    {"texto": "me gusta el color azul", "categoria": "positivo"},
+    {"texto": "odio los lunes", "categoria": "negativo"},
+    {"texto": "qué buen día hace", "categoria": "positivo"},
+    {"texto": "no funciona mi código", "categoria": "negativo"}
+]
